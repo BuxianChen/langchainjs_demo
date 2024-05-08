@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.55",
+    "@langchain/core": "^0.1.62",
+    "@langchain/openai": "^0.0.28",
+    "langchain": "^0.1.36"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
