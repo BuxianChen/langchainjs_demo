@@ -53,6 +53,8 @@ yarn add typescript --dev  # 加不加 --dev 的区别只在于在 package.json 
 
 #### TypeScript Hello World program in node.js
 
+参考: [https://www.typescripttutorial.net/typescript-tutorial/typescript-hello-world/](https://www.typescripttutorial.net/typescript-tutorial/typescript-hello-world/)
+
 typescript 的 helloworld 程序 `app.ts`:
 
 ```typescript
@@ -69,6 +71,8 @@ node app.js     # 使用 node 运行
 ```
 
 #### TypeScript Hello World program in Web Browsers
+
+参考: [https://www.typescripttutorial.net/typescript-tutorial/typescript-hello-world/](https://www.typescripttutorial.net/typescript-tutorial/typescript-hello-world/)
 
 `app.ts` 文件内容
 
@@ -182,7 +186,7 @@ yarn add @langchain/core
 yarn add @langchain/openai
 ```
 
-然后参照 [https://js.langchain.com/docs/expression_language/get_started](https://js.langchain.com/docs/expression_language/get_started) 编写 `src/app.js`, 注意修改好 `package.json`, `tsconfig.json` (目前不太确定 `tsconfig.json` 的设置)
+然后参照 [https://js.langchain.com/docs/expression_language/get_started](https://js.langchain.com/docs/expression_language/get_started) 编写 `src/app.ts`, 注意修改好 `package.json`, `tsconfig.json` (目前不太确定 `tsconfig.json` 的设置)
 
 ### build & run
 
